@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Proxmox Logo Style - Server Stack -->
+    <path
+        android:fillColor="@color/icon_proxmox"
+        android:pathData="M12,14 L36,14 A2,2 0 0,1 38,16 L38,20 A2,2 0 0,1 36,22 L12,22 A2,2 0 0,1 10,20 L10,16 A2,2 0 0,1 12,14 Z"/>
+    <path
+        android:fillColor="@color/glass_light"
+        android:pathData="M14,17 L18,17 A1,1 0 0,1 19,18 L19,19 A1,1 0 0,1 18,20 L14,20 A1,1 0 0,1 13,19 L13,18 A1,1 0 0,1 14,17 Z"/>
+    
+    <path
+        android:fillColor="@color/icon_proxmox"
+        android:pathData="M12,24 L36,24 A2,2 0 0,1 38,26 L38,30 A2,2 0 0,1 36,32 L12,32 A2,2 0 0,1 10,30 L10,26 A2,2 0 0,1 12,24 Z"/>
+    <path
+        android:fillColor="@color/neon_green"
+        android:pathData="M14,27 L18,27 A1,1 0 0,1 19,28 L19,29 A1,1 0 0,1 18,30 L14,30 A1,1 0 0,1 13,29 L13,28 A1,1 0 0,1 14,27 Z"/>
+</vector>

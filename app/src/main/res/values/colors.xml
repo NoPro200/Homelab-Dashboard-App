@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    
+    <!-- Premium Dark Palette - Enhanced -->
+    <color name="primary_dark">#0B0E1A</color>
+    <color name="secondary_dark">#151925</color>
+    <color name="tertiary_dark">#1E2330</color>
+    <color name="surface_dark">#252B3D</color>
+    <color name="surface_elevated">#2A3142</color>
+    <color name="surface_overlay">#323A4F</color>
+    
+    <!-- Premium Neon Accents - Enhanced -->
+    <color name="neon_cyan">#00F5FF</color>
+    <color name="neon_cyan_dim">#0088FF</color>
+    <color name="neon_purple">#A855F7</color>
+    <color name="neon_purple_dim">#7C3AED</color>
+    <color name="neon_pink">#EC4899</color>
+    <color name="neon_pink_dim">#DB2777</color>
+    <color name="neon_green">#10B981</color>
+    <color name="neon_green_dim">#059669</color>
+    <color name="neon_orange">#F59E0B</color>
+    <color name="neon_orange_dim">#D97706</color>
+    <color name="neon_blue">#3B82F6</color>
+    <color name="neon_blue_dim">#2563EB</color>
+    
+    <!-- Glassmorphism Colors - Enhanced -->
+    <color name="glass_ultra_light">#44FFFFFF</color>
+    <color name="glass_light">#33FFFFFF</color>
+    <color name="glass_medium">#22FFFFFF</color>
+    <color name="glass_dark">#11FFFFFF</color>
+    <color name="glass_ultra_dark">#08FFFFFF</color>
+    
+    <!-- Text Colors - Enhanced -->
+    <color name="text_primary">#F5F5F5</color>
+    <color name="text_secondary">#B8B8B8</color>
+    <color name="text_tertiary">#808080</color>
+    <color name="text_disabled">#4D4D4D</color>
+    
+    <!-- Status Colors - Premium -->
+    <color name="success">#10B981</color>
+    <color name="success_bg">#1A2E27</color>
+    <color name="warning">#F59E0B</color>
+    <color name="warning_bg">#2A2314</color>
+    <color name="error">#EF4444</color>
+    <color name="error_bg">#2A1414</color>
+    <color name="info">#3B82F6</color>
+    <color name="info_bg">#1A2333</color>
+    
+    <!-- Overlay Colors - Enhanced -->
+    <color name="overlay_dark">#DD000000</color>
+    <color name="overlay_medium">#99000000</color>
+    <color name="overlay_light">#55000000</color>
+    <color name="overlay_ultra_light">#33000000</color>
+    
+    <!-- Service Icon Colors -->
+    <color name="icon_proxmox">#E57000</color>
+    <color name="icon_truenas">#0095D5</color>
+    <color name="icon_portainer">#13BEF9</color>
+    <color name="icon_home_assistant">#41BDF5</color>
+    <color name="icon_grafana">#F46800</color>
+    <color name="icon_plex">#E5A00D</color>
+    <color name="icon_jellyfin">#00A4DC</color>
+    <color name="icon_nextcloud">#0082C9</color>
+    <color name="icon_pihole">#96060C</color>
+    <color name="icon_docker">#2496ED</color>
+    <color name="icon_kubernetes">#326CE5</color>
+    
+    <!-- Material Theme Colors -->
+    <color name="colorPrimary">@color/neon_cyan</color>
+    <color name="colorPrimaryVariant">@color/neon_purple</color>
+    <color name="colorSecondary">@color/neon_pink</color>
+    <color name="colorSecondaryVariant">@color/neon_orange</color>
+    <color name="colorBackground">@color/primary_dark</color>
+    <color name="colorSurface">@color/surface_dark</color>
+    <color name="colorOnPrimary">@color/primary_dark</color>
+    <color name="colorOnSecondary">@color/primary_dark</color>
+    <color name="colorOnBackground">@color/text_primary</color>
+    <color name="colorOnSurface">@color/text_primary</color>
+    
+    <!-- Shimmer Colors for loading -->
+    <color name="shimmer_base">#1A1E2E</color>
+    <color name="shimmer_highlight">#2A3142</color>
+</resources>

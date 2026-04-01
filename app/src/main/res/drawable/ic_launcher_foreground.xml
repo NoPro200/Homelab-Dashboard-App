@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Server/Network Icon -->
+    <!-- Server Box 1 -->
+    <path
+        android:fillColor="@color/neon_cyan"
+        android:pathData="M30,35 h48 a4,4 0 0,1 4,4 v8 a4,4 0 0,1 -4,4 h-48 a4,4 0 0,1 -4,-4 v-8 a4,4 0 0,1 4,-4 z"/>
+    <!-- LED indicators as small circles -->
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M38,43 m-2,0 a2,2 0,1,1 4,0 a2,2 0,1,1 -4,0"/>
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M45,43 m-2,0 a2,2 0,1,1 4,0 a2,2 0,1,1 -4,0"/>
+    
+    <!-- Server Box 2 -->
+    <path
+        android:fillColor="@color/neon_purple"
+        android:pathData="M30,54 h48 a4,4 0 0,1 4,4 v8 a4,4 0 0,1 -4,4 h-48 a4,4 0 0,1 -4,-4 v-8 a4,4 0 0,1 4,-4 z"/>
+    <!-- LED indicators -->
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M38,62 m-2,0 a2,2 0,1,1 4,0 a2,2 0,1,1 -4,0"/>
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M45,62 m-2,0 a2,2 0,1,1 4,0 a2,2 0,1,1 -4,0"/>
+    
+    <!-- Network Lines -->
+    <path
+        android:strokeColor="@color/neon_pink"
+        android:strokeWidth="3"
+        android:pathData="M54,28 L54,35"/>
+    <path
+        android:strokeColor="@color/neon_pink"
+        android:strokeWidth="3"
+        android:pathData="M54,51 L54,54"/>
+    <path
+        android:strokeColor="@color/neon_pink"
+        android:strokeWidth="3"
+        android:pathData="M54,70 L54,77"/>
+    
+    <!-- Connection Node -->
+    <path
+        android:fillColor="@color/neon_pink"
+        android:pathData="M54,25 m-4,0 a4,4 0,1,1 8,0 a4,4 0,1,1 -8,0"/>
+</vector>

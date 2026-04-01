@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Homelab Dashboard</string>
+    
+    <!-- Main Screen -->
+    <string name="dashboard_title">Homelab Control</string>
+    <string name="vpn_button">ZeroTier VPN</string>
+    <string name="vpn_connected">VPN Connected</string>
+    <string name="vpn_disconnected">VPN Disconnected</string>
+    <string name="vpn_connecting">Connecting...</string>
+    
+    <!-- Service Cards -->
+    <string name="add_service">+ Add Service</string>
+    <string name="edit_service">Edit Service</string>
+    <string name="delete_service">Delete Service</string>
+    <string name="service_name_hint">Service Name</string>
+    <string name="service_url_hint">URL (https://...)</string>
+    <string name="service_icon_hint">Icon (optional)</string>
+    <string name="username_hint">Username (optional)</string>
+    <string name="password_hint">Password (optional)</string>
+    
+    <!-- Actions -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="open">Open</string>
+    <string name="refresh">Refresh</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Default Services -->
+    <string name="proxmox">Proxmox</string>
+    <string name="truenas">TrueNAS</string>
+    <string name="portainer">Portainer</string>
+    <string name="home_assistant">Home Assistant</string>
+    <string name="plex">Plex</string>
+    <string name="grafana">Grafana</string>
+    
+    <!-- Messages -->
+    <string name="loading">Loading...</string>
+    <string name="error_loading">Error loading page</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="invalid_url">Invalid URL</string>
+    
+    <!-- Dialogs -->
+    <string name="confirm_delete">Delete this service?</string>
+    <string name="confirm_delete_message">This action cannot be undone.</string>
+    
+    <!-- Settings -->
+    <string name="about">About</string>
+    <string name="version">Version 1.0</string>
+    
+    <!-- WebView Modes -->
+    <string name="desktop_mode">Desktop Mode</string>
+    <string name="mobile_mode">Mobile Mode</string>
+    <string name="auto_mode">Auto (Detect)</string>
+    
+    <!-- Network -->
+    <string name="network_management">Network Management</string>
+    <string name="add_network">Add Network</string>
+    <string name="local_network">Local Network</string>
+    <string name="vpn_required">VPN Required</string>
+    
+    <string-array name="webview_mode_entries">
+        <item>Mobile View</item>
+        <item>Desktop View</item>
+        <item>Auto-Detect</item>
+    </string-array>
+    
+    <string-array name="webview_mode_values">
+        <item>mobile</item>
+        <item>desktop</item>
+        <item>auto</item>
+    </string-array>
+    
+    <string-array name="icon_style_entries">
+        <item>Modern</item>
+        <item>Classic</item>
+        <item>Minimal</item>
+    </string-array>
+    
+    <string-array name="icon_style_values">
+        <item>modern</item>
+        <item>classic</item>
+        <item>minimal</item>
+    </string-array>
+    
+    <string-array name="biometric_timeout_entries">
+        <item>Always (every time)</item>
+        <item>When leaving app / screen off</item>
+        <item>After 1 minute</item>
+        <item>After 5 minutes</item>
+        <item>After 15 minutes</item>
+        <item>After 30 minutes</item>
+        <item>After 1 hour</item>
+    </string-array>
+    
+    <string-array name="biometric_timeout_values">
+        <item>0</item>
+        <item>-1</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+    </string-array>
+</resources>

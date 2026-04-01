@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Storage/NAS Icon -->
+    <path
+        android:fillColor="@color/icon_truenas"
+        android:pathData="M14,12 L34,12 A3,3 0 0,1 37,15 L37,33 A3,3 0 0,1 34,36 L14,36 A3,3 0 0,1 11,33 L11,15 A3,3 0 0,1 14,12 Z"/>
+    
+    <!-- Drive bays -->
+    <path
+        android:fillColor="@color/surface_dark"
+        android:pathData="M15,16 L33,16 A1,1 0 0,1 34,17 L34,21 A1,1 0 0,1 33,22 L15,22 A1,1 0 0,1 14,21 L14,17 A1,1 0 0,1 15,16 Z"/>
+    <path
+        android:fillColor="@color/surface_dark"
+        android:pathData="M15,24 L33,24 A1,1 0 0,1 34,25 L34,29 A1,1 0 0,1 33,30 L15,30 A1,1 0 0,1 14,29 L14,25 A1,1 0 0,1 15,24 Z"/>
+    
+    <!-- LED indicators -->
+    <path
+        android:fillColor="@color/neon_green"
+        android:pathData="M17,19 m-1,0 a1,1 0,1,1 2,0 a1,1 0,1,1 -2,0"/>
+    <path
+        android:fillColor="@color/neon_green"
+        android:pathData="M17,27 m-1,0 a1,1 0,1,1 2,0 a1,1 0,1,1 -2,0"/>
+</vector>

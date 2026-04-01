@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Network Section -->
+    <PreferenceCategory
+        android:title="Network Settings"
+        android:icon="@android:drawable/ic_menu_myplaces">
+
+        <Preference
+            android:key="current_network"
+            android:title="Current Network"
+            android:summary="Loading..."
+            android:icon="@android:drawable/ic_dialog_info" />
+
+        <Preference
+            android:key="network_management"
+            android:title="Manage Networks"
+            android:summary="Configure local networks and VPN settings"
+            android:icon="@android:drawable/ic_menu_manage" />
+
+        <Preference
+            android:key="vpn_app_select"
+            android:title="VPN App"
+            android:summary="Select your VPN app"
+            android:icon="@android:drawable/ic_menu_share" />
+
+        <SwitchPreferenceCompat
+            android:key="show_vpn_badge"
+            android:title="Show VPN Badge"
+            android:summary="Display VPN requirement badge on service cards"
+            android:defaultValue="true"
+            android:icon="@android:drawable/ic_secure" />
+
+    </PreferenceCategory>
+
+    <!-- WebView Section -->
+    <PreferenceCategory
+        android:title="WebView Settings"
+        android:icon="@android:drawable/ic_menu_view">
+
+        <ListPreference
+            android:key="webview_mode"
+            android:title="Default View Mode"
+            android:summary="%s"
+            android:entries="@array/webview_mode_entries"
+            android:entryValues="@array/webview_mode_values"
+            android:defaultValue="mobile"
+            android:icon="@android:drawable/ic_menu_compass" />
+
+        <SwitchPreferenceCompat
+            android:key="auto_fill_credentials"
+            android:title="Auto-Fill Credentials"
+            android:summary="Automatically fill saved usernames and passwords"
+            android:defaultValue="true"
+            android:icon="@android:drawable/ic_lock_lock" />
+
+        <SwitchPreferenceCompat
+            android:key="javascript_enabled"
+            android:title="Enable JavaScript"
+            android:summary="Required for most modern websites"
+            android:defaultValue="true"
+            android:icon="@android:drawable/ic_menu_info_details" />
+
+        <SwitchPreferenceCompat
+            android:key="allow_cookies"
+            android:title="Allow Cookies"
+            android:summary="Enable cookie storage for login sessions"
+            android:defaultValue="true"
+            android:icon="@android:drawable/ic_menu_agenda" />
+
+        <Preference
+            android:key="clear_cache"
+            android:title="Clear Cache"
+            android:summary="Clear all cached data and cookies"
+            android:icon="@android:drawable/ic_menu_delete" />
+
+    </PreferenceCategory>
+
+    <!-- Appearance Section -->
+    <PreferenceCategory
+        android:title="Appearance"
+        android:icon="@android:drawable/ic_menu_gallery">
+
+        <SwitchPreferenceCompat
+            android:key="dark_theme"
+            android:title="Dark Theme"
+            android:summary="Use dark theme (requires app restart)"
+            android:defaultValue="true"
+            android:icon="@android:drawable/ic_menu_day" />
+
+        <ListPreference
+            android:key="icon_style"
+            android:title="Service Icon Style"
+            android:summary="%s"
+            android:entries="@array/icon_style_entries"
+            android:entryValues="@array/icon_style_values"
+            android:defaultValue="modern"
+            android:icon="@android:drawable/ic_menu_gallery" />
+
+    </PreferenceCategory>
+
+    <!-- Security Section -->
+    <PreferenceCategory
+        android:title="Security"
+        android:icon="@android:drawable/ic_lock_lock">
+
+        <SwitchPreferenceCompat
+            android:key="biometric_auth"
+            android:title="Biometric Authentication"
+            android:summary="Require fingerprint/face unlock to open app"
+            android:defaultValue="false"
+            android:icon="@android:drawable/ic_menu_mylocation" />
+
+        <ListPreference
+            android:key="biometric_timeout"
+            android:title="Re-authenticate After"
+            android:summary="%s"
+            android:entries="@array/biometric_timeout_entries"
+            android:entryValues="@array/biometric_timeout_values"
+            android:defaultValue="0"
+            android:dependency="biometric_auth"
+            android:icon="@android:drawable/ic_lock_idle_alarm" />
+
+        <SwitchPreferenceCompat
+            android:key="secure_screenshots"
+            android:title="Block Screenshots"
+            android:summary="Prevent screenshots in the app"
+            android:defaultValue="false"
+            android:icon="@android:drawable/ic_menu_camera" />
+
+    </PreferenceCategory>
+
+    <!-- Data Section -->
+    <PreferenceCategory
+        android:title="Data Management"
+        android:icon="@android:drawable/ic_menu_save">
+
+        <Preference
+            android:key="export_settings"
+            android:title="Export Settings"
+            android:summary="Save all settings and services to file"
+            android:icon="@android:drawable/ic_menu_upload" />
+
+        <Preference
+            android:key="import_settings"
+            android:title="Import Settings"
+            android:summary="Restore settings from backup file"
+            android:icon="@android:drawable/ic_menu_revert" />
+
+    </PreferenceCategory>
+
+    <!-- About Section -->
+    <PreferenceCategory
+        android:title="About"
+        android:icon="@android:drawable/ic_menu_info_details">
+
+        <Preference
+            android:key="about"
+            android:title="Homelab Dashboard"
+            android:summary="Version 1.0"
+            android:icon="@android:drawable/ic_dialog_info" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

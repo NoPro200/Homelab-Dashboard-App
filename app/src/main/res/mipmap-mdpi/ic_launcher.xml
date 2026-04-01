@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M0,0 h48 v48 h-48 z"/>
+    
+    <!-- Server Rack Icon -->
+    <path
+        android:fillColor="@color/neon_cyan"
+        android:pathData="M12,16 h24 a2,2 0 0,1 2,2 v4 a2,2 0 0,1 -2,2 h-24 a2,2 0 0,1 -2,-2 v-4 a2,2 0 0,1 2,-2 z"/>
+    <!-- LED indicators -->
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M16,20 m-1,0 a1,1 0,1,1 2,0 a1,1 0,1,1 -2,0"/>
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M20,20 m-1,0 a1,1 0,1,1 2,0 a1,1 0,1,1 -2,0"/>
+    
+    <path
+        android:fillColor="@color/neon_purple"
+        android:pathData="M12,26 h24 a2,2 0 0,1 2,2 v4 a2,2 0 0,1 -2,2 h-24 a2,2 0 0,1 -2,-2 v-4 a2,2 0 0,1 2,-2 z"/>
+    <!-- LED indicators -->
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M16,30 m-1,0 a1,1 0,1,1 2,0 a1,1 0,1,1 -2,0"/>
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M20,30 m-1,0 a1,1 0,1,1 2,0 a1,1 0,1,1 -2,0"/>
+</vector>
