@@ -1,4 +1,4 @@
-<img src="screenshots/Homelab%20Dashboard.png" width="750" />
+<img src="screenshots/Homelab%20Dashboard.png" width="auto" />
 <div align="center">
 
 # 🏠 Homelab Dashboard
