@@ -1,3 +1,4 @@
+<img src="screenshots/Homelab%20Dashboard.png" width="750" />
 <div align="center">
 
 # 🏠 Homelab Dashboard
